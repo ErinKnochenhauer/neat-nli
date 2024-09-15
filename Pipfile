@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = ">=1.20.0"
+transformers = {extras = ["torch"], version = "*"}
+openai = "*"
+tiktoken = "*"
+scipy = "*"
+numba = "*"
+top2vec = {extras = ["sentence_encoders"], version = "*"}
+umap-learn = ">=0.5.1"
+scikit-learn = ">=1.2.0"
+gensim = ">=4.0.0"
+hdbscan = ">=0.8.27"
+wordcloud = "*"
+tensorflow = "*"
+tensorflow-hub = "*"
+tensorflow-text = "*"
+torch = "*"
+sentence-transformers = "*"
+hnswlib = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
